@@ -14,6 +14,7 @@ import dj_database_url
 from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -89,7 +90,7 @@ WSGI_APPLICATION = 'tubers.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES['default'] = dj_database_url.config()
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -97,9 +98,9 @@ DATABASES = {
         'USER': 'puwycmvsdywwyz',
         'PASSWORD': 'c9ff7fba028b72085a4f30db1d46ff6c6551d25bc09a91c06b51bbed9a92d9ec',
         'HOST': 'ec2-54-211-176-156.compute-1.amazonaws.com',
-    }
+        }
 }
-
+DATABASES['default'] = dj_database_url.config(default='postgres://puwycmvsdywwyz:c9ff7fba028b72085a4f30db1d46ff6c6551d25bc09a91c06b51bbed9a92d9ec@ec2-54-211-176-156.compute-1.amazonaws.com:5432/d5nl7icmd90d4s')
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
