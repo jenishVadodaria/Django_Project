@@ -12,6 +12,7 @@ django-ckeditor = "*"
 django-allauth = "*"
 gunicorn = "*"
 whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
