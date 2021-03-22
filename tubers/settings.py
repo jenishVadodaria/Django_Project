@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'tubers.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lcotubers',
-        'USER': 'postgres',
-        'PASSWORD': '7089',
-        'HOST': 'localhost',
+        'NAME': 'da9oh3s2bl76co',
+        'USER': 'laphcspjcjfxpd',
+        'PASSWORD': '09ca070914989102356277dd811c6dfc57d301bd4185dc66b871c8470a6b60e6',
+        'HOST': 'ec2-54-211-176-156.compute-1.amazonaws.com',
     }
 }
 
