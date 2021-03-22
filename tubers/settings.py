@@ -93,9 +93,9 @@ DATABASES['default'] = dj_database_url.config()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'da9oh3s2bl76co',
-        'USER': 'laphcspjcjfxpd',
-        'PASSWORD': '09ca070914989102356277dd811c6dfc57d301bd4185dc66b871c8470a6b60e6',
+        'NAME': 'd5nl7icmd90d4s',
+        'USER': 'puwycmvsdywwyz',
+        'PASSWORD': 'c9ff7fba028b72085a4f30db1d46ff6c6551d25bc09a91c06b51bbed9a92d9ec',
         'HOST': 'ec2-54-211-176-156.compute-1.amazonaws.com',
     }
 }
